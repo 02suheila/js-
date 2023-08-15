@@ -1,0 +1,95 @@
+<!--ONSUBMIT-content web page  to js file
+
+
+    <html>
+    <head>
+        <script>
+            function valid(){
+                alert('pls enter input');
+                return false;/*true-then action  is opens*/
+
+            }
+        </script>
+    </head>
+    <body>
+        <form target="_blank" onsubmit="return valid()" action="https://www.instagram.com">
+            <button>SUBMIT</button>
+        </form>
+    </body>
+</html>
+-->
+<!--ONCHANGE
+<html>
+    <head>
+        <script>
+            function handlechange(){
+                console.log("hey alert")
+                alert('hey alert')
+            }
+        </script>
+    </head>
+    <body>
+        <input type="text" onchange="handlechange()">
+    </body>
+</html>
+-->
+
+<!--GOOGLE FORM
+<html>
+    <head>
+        <title>
+        </title>
+        <script>
+            function valid(){
+                var name=document.getElementById("name").value;
+                var mobile=document.getElementById("mobile").value;
+                var nameCheck=/^[a-zA-Z]+$/
+                var mobileCheck=/^\d{10}$/
+                if (name==""||name.length<3){
+                    alert("please enter name")
+                    return false;
+                }
+                if(!name.match(nameCheck) ){
+                    alert('only alpha')
+                    return false;
+                }
+                if (mobile==""||mobile.length!=10){
+                    alert("enter number plch")
+                    return false;
+                }
+                if (!mobile.match(mobileCheck)){
+                    alert("only num")
+                    return false;
+                }
+                document.write(name)
+                document.write(mobile)
+                return true;
+            }
+        </script>
+    </head>
+    <body>
+        <form onsubmit="return valid()">
+            <p><input id="name" type="text" placeholder="enter your name"/></p>
+            <p><input id="mobile" type="text" placeholder="enter phone number"/></p>
+            <button >send</button>
+        </form>
+    </body>
+</html>
+-->
+<!--SELECT TAG
+    <html>
+    <head>
+
+    </head>
+    <body>
+        <select id="SelectTag"></select>
+        <script>
+            var s=document.getElementById("SelectTag");
+            for(i=1;i<=20;i++){
+                s.innerHTML+="<option>"+i+"</option>"
+            }
+        </script>
+    </body>
+</html>
+-->
+
