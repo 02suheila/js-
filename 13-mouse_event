@@ -1,0 +1,135 @@
+<!--EVENTS-gives action when user did anything 
+    onclick
+    onmouseover
+    onmouseout
+    doubleclick
+    mousemove
+-->
+<!--ONCLICK
+<html>
+    <head>
+        <title></title>
+    </head>
+    <body>
+        
+        connection of html and js-->
+        <!--<input type="text" placeholder="Enter name" id="name">
+        <button onclick="goToHell()">submit</button>
+        <script>
+            
+            /*input data is exceuted in html terms
+            var userName=document.getElementById("name").value
+            console.log(userName)*/
+            
+            function goToHell(){
+            /*when we click on submit button-this operation happened
+                console.log("some one clicked the button")
+            */
+           /*when user enter text then this operation happens-html data in javascript
+           var userName=document.getElementById("name").value
+            console.log(userName)
+            */
+            }
+        </script>
+      
+    </body>
+</html>
+-->
+<!--ONMOUSEOVER
+<html>
+    <head>
+        <script>
+            function helo(){
+                console.log("onmouseover event")
+            }
+        </script>
+        <body>
+            <p onmouseover="helo()">HELLO</p>
+        </body>
+    </head>
+</html>
+-->
+<!--ONMOUSEOUT
+<html>
+    <head>
+        <script>
+            function helo(){
+                console.log("onmouse-out")
+            }
+        </script>
+    </head>
+    <body>
+        <p style="border:1px solid blueviolet" onmouseout="helo()">BABES</p>
+    </body>
+</html>
+-->
+
+
+<!--ONCLICK sending information to webpage
+    <html>
+    <head>
+        <script>
+            function callMe(){
+                /*storing value*/
+                var a="hey u requested";
+                /*dispalying value by documenet*/
+                var q=document.getElementById("username").innerHTML=a
+                var q=document.getElementById("u")
+                q.style.background="white"
+
+                document.body.style.background="black"
+
+
+            }
+        </script>
+        <body>
+            <p> NAME:<span id="username"></span></p>
+            <button id='u' onclick="callMe()">SUBMIT</button>
+        </body>
+    </head>
+</html>
+-->
+<!--ONCLICK sending list of information
+<html>
+    <head>
+        <script>
+            function call(){
+                var l=document.getElementsByTagName("li")
+                console.log(l)
+                console.log(l[0].innerHTML)
+            }
+        </script>
+    </head>
+    <body>x
+        <p>NAME:<span id="name"></span></p>
+        <ul>
+            <li>one</li>
+            <li>two</li>
+            <li>three</li>
+            <li>four</li>
+        </ul>
+        <button onclick="call()">submit</button>
+    </body>
+</html>
+-->
+<!--ONCLICK sending list of information using loop
+<html>
+    <head>
+        <script>
+            var a=[1,2,"hi",9]
+            function display(){
+                document.getElementById("demo").innerHTML
+                for(i=0;i<a.length;i++){
+                    /*last value executesdocument.getElementById("demo").innerHTML=a[i]*/
+                    document.getElementById("demo").innerHTML+="<br/>"+a[i]
+                    /*console.log(a[i]);*/
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <p  id="demo"></p>
+        <button onclick=display()>submit</button>
+    </body>
+</html>
+-->                     
