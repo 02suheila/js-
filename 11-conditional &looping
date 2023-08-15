@@ -1,0 +1,71 @@
+<!--
+>>>>>>>>>>>>>>>>>>>>>CONDITIONAL STATEMENT:
+if (condition){}
+else if (condition){}
+else{}
+switch
+>>>>>>>>>>>>>>>>>>>>LOOPING STAEMENTS:
+single action multiple times of iteration
+1.initilization
+2.condition
+3.iteration
+4.statements
+
+syntax:
+initialization
+while(condition){
+    statements;
+    iteration;
+}
+
+initialization
+do{
+    statements;
+    iteration;
+}while(condition);
+
+for(initialization;condition;iteration){
+    statements;
+}
+
+
+CAMELCASE CONVENTION: getElementById()
+-->
+<html>
+    <head>
+        <title>conditional</title>
+        <script>
+            var a=2,b=5;
+            console.log(a<b)
+            console.log(a==b)
+            if (a==b){
+                console.log("come on")
+            }
+            else if(a<b){
+                console.log("may be")
+            }
+            else{
+                console.log("get lost")
+            }
+            var age=24;
+            if (age>=18){
+            console.log("you are eligible to vote")
+            }
+            let y=0
+            while(y<=20){
+                console.log(y);
+                y++
+            }
+            var e=10;
+            do{
+                console.log(e);
+                e++;
+               
+            }
+            while(e<=5)
+            for (i=100;i<=110;i++){
+                console.log(i);
+            }
+        </script>
+    </head>
+</html>
