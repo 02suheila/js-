@@ -1,0 +1,26 @@
+<!--Comments: single line //
+    multi line:/*  */
+OPERATORS:operator means nothing but symbols
+ARTHMETIC  ->   + - * % /
+Assignment ->   asign value(=)
+Relational ->   < > == != <= >=
+Logical    ->   &&  || 
+Comparison
+Increment/Decrement -> ++ --
+Ternary
+-->
+<html>
+    <head>
+        <title>Operators</title>
+        <script>
+            /*assigning*/
+            let d=5;
+            console.log(d);
+            /*arthmetic*/
+            let a=2,b=1,c
+            c=a+b
+            console.log(c)
+
+        </script>
+    </head>
+</html>
