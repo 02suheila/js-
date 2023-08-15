@@ -1,0 +1,41 @@
+<!--ARRAYS: which have combine different datatypes
+    var a=[];
+    length
+    push()-add at end
+    pop()-remove at end
+    shift()-remove at start
+    unshift()-remove at end
+
+    splice-used to indexing operation
+    position where we want to perform the action
+    addd value without deleting-u.splice(index,number of values to delete,value to add)
+    delete-(index,number of values to delete)
+
+--><html>
+    <head>
+        <title>array</title>
+        <script>
+            var a=[1,2,3,"hi",{name:"ram",gender:"male"}];
+            console.log("a",a)
+            s=[1,2,3,4,5,67,8,9,12,13,14,15,17,4,56,78,88]
+            console.log("s",s)
+            console.log("length",s.length)
+            console.log("push",s.push(5))
+            console.log("push",s)
+            s.pop()
+            console.log("pop",s)
+            s.shift()
+            console.log("shift",s)
+            s.unshift(0)
+            console.log("unshift",s)
+            s.splice(1,0,"p","z")
+            console.log(s)
+            s.splice(1,2)
+            console.log(s)
+            console.log(s[2])
+        </script>
+    </head>
+    <body>
+        
+    </body>
+</html>
