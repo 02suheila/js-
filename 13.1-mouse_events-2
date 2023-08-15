@@ -1,0 +1,125 @@
+<!--ONCLICK,ONDOUBLECLICK,ONLOAD,ONERROR
+<html>
+    <head>
+        <script>
+            var q="buzz"
+            function call(){
+               
+                console.log("hello")/*dispaly on console*/
+                document.getElementById("ll").innerHTML=q
+                alert('someone clicked')
+            }
+        </script>
+    </head>
+    <body>
+        <p id="ll">hey you may click me</p>
+        <button onclick="call()">click me</button>
+    </body>             
+</html>
+-->
+<!--DOUBLECLICK
+<html>
+    <head>
+        <script>
+            var q="hey"
+            function call(){
+                
+                document.getElementById("dt").innerHTML=Date()
+            }
+        </script>
+    </head>
+    <body>
+        <p id="dt">date_time</p>
+        <button ondblclick="call()">click_me</button>
+    </body>
+</html>
+-->
+<!--ONLOAD
+<html>
+    <head>
+        <script>
+            function pageLoad(){
+                alert("page loaded")
+            }
+        </script>
+    </head>
+    <body >
+        <p >page reloaded</p>
+        <p>refresh</p>
+        <img src="pp.jpg" onload="pageLoad()">
+        
+    </body>
+</html>
+-->
+<!--ONERROR
+<html>
+    <head>
+        <script>
+            function errim(){
+                alert("image not load")
+            }
+        </script>
+    </head>
+    <body >
+        <p >page reloaded</p>
+        <p>refresh</p>
+        <img src="p.jpg" onerror="errim()">
+        
+    </body>
+</html>
+-->
+<!--MOUSEOVERMOVE,MOUSEOVEROUT 
+<html>
+    <head>
+        <script>
+            function bigimage(x){
+                x.style.width="300px";
+                x.style.height="300px";
+            }
+            function smallimage(x){
+                x.style.width="30px";
+                x.style.height="30px";
+
+            }
+        </script>
+    </head>
+    <img src="pp.jpg" onmousemove="bigimage(this)" onmouseout="smallimage(this)">
+</html>
+-->
+<!--RESIZE
+<html>
+    <head>
+        <script>
+            
+            function page(){
+                alert('cant resize');
+            }
+        </script>
+    </head>
+    <body onresize="page()">
+        <p >resize the page</p>
+    </body>
+</html>
+-->
+<!--ONSELECT-we cant select and modify the data
+<html>
+    <head>
+        <script>
+            function dummy(){
+                alert('u cant');
+            }
+        </script>
+    </head>
+    <body onselect="dummy()">
+        <p>enter name:</p><br>
+        <input type="text"></label>
+        <p>enter number:</p><br>
+        <input type="number"></label>
+        <button>submit</button>
+        
+
+    </body>
+</html>
+-->
+
+
