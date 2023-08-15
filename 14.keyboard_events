@@ -1,0 +1,79 @@
+<!--keypress,keydown,keyup 
+<html>
+    <head>
+        <script>
+            
+            function change(){
+                //alert("keydownevent")
+                var p=document.getElementById("l");
+                p.style.background="blue";
+
+            }
+            function change2(){
+
+                var p=document.getElementById("l");
+                p.style.background="white";
+                
+            }
+            function change3(){
+                var p=document.getElementById("l");
+                p.style.background="black";
+            }
+        </script>
+    </head>
+    <body>
+        <form>
+            <p >enter text</p>
+            <input type="text" id="l" onkeydown="change()" onkeyup="change2()" onkeypress="change3()">
+        </form>
+    </body>
+</html>
+onkeypress
+<html>
+    <head>
+        <script>
+            function keypress(){
+                console.log("key press")
+                alert("key press")
+            }
+        </script>
+    </head>
+    <body>
+    <input type="text" onkeypress="keypress()">
+</body>
+</html>
+-->
+
+<!--focus,BLUR
+<html>
+    <head>
+        <script>
+            function UpperCase(){
+                var x=document.getElementById("ff");
+                x.value=x.value.toUpperCase();
+            }
+            function LowerCase(){
+                var z=document.getElementById("f");
+                z.value=z.value.toLowerCase();
+            }
+        </script>
+    </head>
+    <body>
+        <form>
+            <label>enter in lowercase:</label><br/>
+            <input type="text" id="ff" onblur="UpperCase()"><br/>
+            <label>enter in uppercase:</label><br/>
+            <input type="text" id="f" onfocus="LowerCase()">
+        </form>
+    </body>
+</html>
+-->
+<html>
+    <head>
+
+    </head>
+    <body>
+        
+    </body>
+</html>
+
