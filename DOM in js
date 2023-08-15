@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+    <head>
+        
+    </head>
+    <body>
+       <!--ID
+        <p id="first">heelloooo DOM</p>
+       <script>
+        var a=document.getElementById("first")
+        console.log(a)
+       </script>-->
+       <!--CLASS
+        <script>
+            var a=document.getElementsByClassName("babes")
+            console.log(a)
+        </script>
+        <div class="babes">
+            <h1>hello</h1>
+            <p>boloo</p>
+        </div>
+        <div class="babes">
+            <h1>hello</h1>
+            <p>boloo</p>
+        </div>
+        -->
+        <!--TAG
+        <p >heelloooo DOM</p>
+       <script>
+        var a=document.getElementsByTagName("p")
+        console.log(a)
+       </script>
+        -->
+        <!--queryselector
+        <div class="babes">
+            <h1>hello</h1>
+            <p>boloo</p>
+        </div>
+        <div class="babes">
+            <h1>hello</h1>
+            <p>boloo</p>
+        </div>
+       <script>
+        var a=document.querySelector(".babes")
+        console.log(a)
+       </script>
+       -->
+       <!--queryselectorall
+       <div class="babes">
+        <h1>hello</h1>
+        <p>boloo</p>
+    </div>
+    <div class="babes">
+        <h1>hello</h1>
+        <p>boloo</p>
+    </div>
+   <script>
+    var a=document.querySelectorAll(".babes")
+    console.log(a)
+   </script>
+   -->
+        
+    </body>
+</html>
