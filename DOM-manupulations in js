@@ -1,0 +1,71 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <div id="one">
+            <p id="pp">this is para 1 in div1</p>
+            <p id="sss">this is para 2 in div1</p>
+        </div>
+        <div id="two">
+            <p>this is para 1 in div2</p>
+            <p id="ss">this is para 2 in div2</p>
+        </div>
+        <script>
+            /*
+            //creating a html element
+            var a=document.createElement('h1');
+            console.log(a)
+            //adding text to tag
+            a.innerText="this is spcl para in div2";
+            
+            //content on webpage-appending value to tag
+            var b=document.getElementById("two");
+            console.log(b);
+            //b.appendChild(a);
+            //console.log(b.innerText)
+
+            console.log(b.innerHTML)
+            //insert
+            
+            var c=document.getElementById("ss")
+            b.insertBefore(a,c);
+            
+            
+           //removing
+           var d=document.getElementById("two")
+           d.remove()
+           //removing one children
+           var e=document.getElementById("one")
+           var f=document.getElementById("sss")
+           //e.removeChild(f)
+           f.remove()
+
+           var z=document.createElement('h1');
+           z.innerText="heading one";
+           var x=document.getElementById('pp');
+           x.replaceChildren(z)
+           */
+          var s=document.createElement('h1');
+          s.innerText="hello welcome to browser"
+          console.log(s)
+          var q=document.getElementById("two")
+          q.appendChild(s)
+          //style in js
+          q.style.color="pink";
+          s.style.color="blue";
+          s.style.border="2px blue dashed"
+          s.style.background="yellow"
+          //get and set attributes
+          //document.write((q).getAttribute('id'))
+          q.setAttribute('id','pp')
+          //document.write((q).getAttribute('id'))
+          q.classList.add(' kk')
+          console.log(q)
+        
+
+
+
+        </script>
+    </body>
+</html>
