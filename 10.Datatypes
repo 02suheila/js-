@@ -1,0 +1,63 @@
+<!--chrome-browsers used for web developers
+google:v8 engine is used
+DATA-TYPES:
+PRIMARY:
+NUMBERS-  var a=56,-90,8.9
+STRING-   var a="pddv"
+BOOLEAN-  var a=true/false
+UNDEFINED-var a;
+NULL-     var a=null;
+SYMBOL
+BigInt-   var a=23456789n;
+
+SECONDARY:
+OBJECT--var varaible{
+    key:value;
+    key:value;
+}
+-->
+
+<html>
+    <head>
+        <title>js</title>
+        <script>
+            
+            //primary datatype
+            /*number:to store keyword we use var*/
+            var n=6;
+            console.log(n);
+            /*string:method,function*/
+            var a="roohi";
+            console.log(a);
+            console.log("hello babes"); 
+            /*boolean datatype*/
+            var q=false;
+            console.log(q);
+            /*undefined-not assigned any value*/
+            var g2;
+            console.log(g2);
+            /*BigInt- letter 'n' at end of number*/
+            var z=5567890987654323456789n;
+            console.log(z);
+            /*null*/
+            var p=null;
+            console.log(p)
+
+
+            var k=123, s="king me", b=true,u,j=null,ll=12345678987654n
+            console.log(k,s,b,u,j,ll)
+                
+            //secondary datatype
+            var kk={
+                name:"roohi",
+                age:20,
+                gender:"female",
+                dob:19-12-2002,
+                address:"kakinada"
+            }
+            console.log(kk);
+            console.log(kk.name)
+            console.log(kk.address)
+        </script>
+    </head>
+</html>
