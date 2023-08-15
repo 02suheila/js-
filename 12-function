@@ -1,0 +1,52 @@
+<!--FUNCTION:
+An action is going to be separated into parts
+
+function function_name(parameters or arguments){
+    statements;
+}
+two types:predefined-console.log,while,if
+userdefined-which we are writting in block of code
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Keywords:
+var:can change value-can declare a new variable
+var d=10; var d=20; o/p=20
+const:cant change the value-cant declare a new variable
+const d=10; const d=20; o/p:error 
+let:can change the value- cant declare a new variable
+let d=10; let d=20; o/p-10
+
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>VARIABLES:
+global-variable can use anywhere
+local-varaible only use in block ofcode
+-->
+<html>
+    <head>
+        <title>fun</title>
+        <script>
+            /*function add(){
+                console.log(a+b);
+            }
+            var a=2,b=3
+            add(a+b);*/
+            var a=8,b=9,c=6,d=4;
+            function reUse(n1,n2){
+                console.log(n1+n2)
+                return n1+ n2
+            }
+            var r=reUse(a,b)
+            reUse(c,d)
+            reUse(a,d)
+            reUse(b,d)
+            reUse(a,c)
+            console.log("result",r)
+            var s=document.getElementById('selectId');
+            for(i=1;i<=10;i++){
+
+                s.innerHTML="<option>"+i
+            }
+        </script>
+    </head>
+    <body>
+        <select id="'selectId"></select>
+    </body>
+</html>
